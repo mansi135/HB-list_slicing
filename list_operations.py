@@ -68,7 +68,7 @@ def init(input_list):
 
     """
 
-    return input_list[:-1]  ### is that ok ?
+    return input_list[:-1]
 
 
 ##############################################################################

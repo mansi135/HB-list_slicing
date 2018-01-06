@@ -30,8 +30,10 @@ def custom_len(input_list):
         8
 
     """
-
-    return 0
+    count = 0
+    for i in input_list:
+        count += 1
+    return count
 
 
 # For the next four exercises, you'll need to be clever and think about ways
@@ -58,6 +60,9 @@ def custom_append(input_list, value):
         True
 
     """
+
+    input_list = [input_list[::], value]
+
 
     pass
 
